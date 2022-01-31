@@ -2,8 +2,6 @@
 @import "./components/reset";
 @import "./components/font";
 @import "./components/color";
-@import "./components/note";
-@import "./components/input";
 @mixin grid($columns, $rows) {
   display: grid;
   grid-template-rows: $rows;
