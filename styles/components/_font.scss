@@ -1,0 +1,21 @@
+// VARIABLES
+$heading: 1.875rem;
+$heading2: 1.5rem;
+$heading3: 1.25rem;
+$text: 1.125rem;
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  h1 {
+    font-size: $heading;
+  }
+  h2{
+    font-size: $heading2;
+  }
+  h3{
+    font-size: $heading3;
+  }
+  p {
+    font-size: $text;
+  }
+}

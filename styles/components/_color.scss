@@ -1,0 +1,17 @@
+// VARIABLES
+$bgColor: #1e6262;
+$foreGround: #2d767f;
+$headingColor: #b4f1f1;
+$textColor: #ecfffb;
+
+body {
+    h1,h2,h3 {
+        color: $headingColor;
+    }
+    
+    p {
+        color: $textColor;
+    }
+}
+
+

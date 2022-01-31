@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App | Chibu_exe</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Notes App</h1>
+            <h2 class="header__text">Keep ideas in bold text</h2>
+        </header>
+        <main class="main">
+            <div class="main__textarea">
+                <textarea name="note" id="textarea" rows="5" placeholder="...ideas"></textarea>
+                <a href="#" class="main__textarea__button" id="save">
+                    <i class='bx bx-plus bx-md'></i>
+                </a>
+            </div>
+            <div class="main__notes" id="notes">
+                
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__copyright">
+                <p>&copy; <span id="copyright--year"></span> Chibu_exe</p>
+            </div>
+            <div class="footer__socials">
+                <a href="https://github.com/goldenhub" target="_blank"><i class='bx bxl-github bx-md'></i></a>
+                <a href="https://twitter.com/Chibu_exe" target="_blank"><i class='bx bxl-twitter bx-md'></i></a>
+                <a href="https://linkedin.com/in/goldenazubuike" target="_blank"><i
+                        class='bx bxl-linkedin bx-md'></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
